@@ -19,12 +19,12 @@ public class Brecho {
 		nProg = new ProdutoBean("CD00004","Prod 4 ...", "Bla Bla Bla",1300.0,"Bla Bla Bla");
 		produtos.add(nProg);
 		nProg = new ProdutoBean("CD00005","Prod 5 ...", "Bla Bla Bla",9400.0,"Bla Bla Bla");
-		produtos.add(nProg);git
+		produtos.add(nProg);
 		nProg = new ProdutoBean("CD00006","Prod 6 ...", "Bla Bla Bla",1500.0,"Bla Bla Bla");
 		produtos.add(nProg);
 		
 		// Imprime produtos
-		for (int i=1; i<=produtos.size(); i++) {
+		for (int i=0; i<produtos.size(); i++) {
 			System.out.println("Codigo = " + produtos.get(i).getCodigo() + " Nome = " + produtos.get(i).getNome() + " Valor = " + produtos.get(i).getValor());
 		}
 		
